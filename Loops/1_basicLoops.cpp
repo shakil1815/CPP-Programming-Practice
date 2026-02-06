@@ -8,3 +8,24 @@ int main(){
         cout<<"Hello World!!"<<endl;
     }
 }
+/*
+WHILE LOOP:
+int i=1;
+while(i<=n){
+        cout<<"Hello World!!"<<endl;
+        i++;
+    }
+
+*/
+
+
+/*
+WHILE LOOP:
+int i=1;
+do{
+        cout<<"Hello World!!"<<endl;
+        i++;
+    }
+while(i<=n);
+
+*/
