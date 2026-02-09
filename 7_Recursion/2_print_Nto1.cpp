@@ -1,13 +1,15 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
-void nm(int n){
-    if(n==0) return;
-    cout<<n<<endl;
-    nm(n-1);
+void nm(int n)
+{
+    if (n == 0) return;  //base case
+    cout << n << endl;   //work
+    nm(n - 1);        //call
 }
-int main(){
+int main()
+{
     int n;
-    cout<<"Enter n:";
-    cin>>n;
+    cout << "Enter n:";
+    cin >> n;
     nm(n);
 }
