@@ -61,4 +61,5 @@ int main(){
     cout<<s3.name<<" "<<s3.gpa<<" "<<s3.rno<<endl;
     cout<<s6.name<<" "<<s6.gpa<<" "<<s6.rno<<endl;
     cout<<s7.name<<" "<<s7.gpa<<" "<<s7.rno<<endl;
+    cout<<s4.rno;
 }
