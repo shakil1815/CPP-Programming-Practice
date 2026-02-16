@@ -4,9 +4,8 @@ int main(){
     int n;
     cout<<"Enter number:";
     cin>>n;
-    if(n%2==0) cout<<"even number"<<endl;
+    if(n%2==0)  cout<<"even number"<<endl;
     else cout<<"odd number";
-    
 }
 
 

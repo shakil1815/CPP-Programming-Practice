@@ -74,3 +74,26 @@ int main()
 //         cout<<a[i]<<" ";
 //     }
 // }
+
+
+
+//                       (3)
+//alternative:
+
+// #include <bits/stdc++.h>
+// using namespace std;
+// int main()
+// {
+//     int arr[] = {5, 6, 3, 8, 9};
+//     int n = sizeof(arr) / 4;
+//     for (int i = 0, j = n - 1; i < n, i < j; i++, j--)
+//     {
+//         int temp = arr[i];
+//         arr[i] = arr[j];
+//         arr[j] = temp;
+//     }
+//     for (int i = 0; i < n; i++)
+//     {
+//         cout << arr[i] << " ";
+//     }
+// }
