@@ -1,6 +1,4 @@
 //overriding is a Run time polymorphism;
-
-// Overriding is a Runtime Polymorphism
 #include<iostream>
 using namespace std;
 
