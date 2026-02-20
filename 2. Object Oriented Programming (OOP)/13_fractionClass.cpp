@@ -39,3 +39,11 @@ int main(){
     Fraction f3 = f1 + f2;
     f3.display();
 }
+
+
+/*
+    '+' is a operator which perform differently based on 
+    operands  mane + diye 2 ta integer re ou add kora jay abr 2 ta
+    string ke ou eiti operands ar upor depends kore eta ke 
+    operator overloading 
+*/
