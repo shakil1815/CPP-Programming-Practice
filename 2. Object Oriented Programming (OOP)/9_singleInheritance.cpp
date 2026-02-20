@@ -14,8 +14,12 @@ public:
 };
 
 int main(){
-    Bike b1;
-    b1.topSpeed = 180;
-    b1.mileage = 12.5;
-    b1.gears = 6;
+    Scooty s;
+    s.mileage=14;
+    s.topSpeed=44;
+
+    Bike b;
+    b.topSpeed = 180;
+    b.mileage = 12.5;
+    b.gears = 6;
 }

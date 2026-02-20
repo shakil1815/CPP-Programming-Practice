@@ -11,10 +11,12 @@ public:
         marks = m;
     }
 
+     //getter ar use kore private ke print kora jay
     float getMarks(){ // getter
         return marks;
     }
 
+    //setter ar use kore private ke assign  kora jay
     void setMarks(float m){ // setter
         marks = m;
     }

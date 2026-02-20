@@ -12,6 +12,7 @@ public:
         arr = new int[1];
     }
 
+    //capacity check and double function
     void add(int ele){
         if(size==capacity){
             capacity *= 2;
@@ -24,6 +25,7 @@ public:
         arr[size++] = ele;
     }
 
+    //print function
     void print(){
         for(int i=0;i<size;i++){
             cout<<arr[i]<<" ";
@@ -31,6 +33,7 @@ public:
         cout<<endl;
     }
 
+    //jekono index print korar function
     int get(int idx){
         if(size==0){
             cout<<"Array is Empty"<<endl;
@@ -43,6 +46,7 @@ public:
         return arr[idx];
     }
 
+    //element remove korar function
     void remove(){
         if(size==0){
             cout<<"Array is Empty"<<endl;
