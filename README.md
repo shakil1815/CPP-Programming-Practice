@@ -33,14 +33,6 @@ This section covers the core fundamentals of C++:
 * **8. Array:** Working with 1D arrays and data collections.
 * **9. 2D Array:** Handling matrices and multi-dimensional data.
 * **10. String:** Manipulating text and character sequences.
-
-### 🟨 2. Object Oriented Programming (OOP)
-Advanced topics focusing on the four pillars of OOP:
-* Classes & Objects
-* Inheritance
-* Polymorphism
-* Encapsulation & Abstraction
-
 ---
 
 ## 💻 Tech Stack
