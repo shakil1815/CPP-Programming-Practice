@@ -13,7 +13,52 @@ Contains fundamental concepts of C++, including:
 * Variables, Data Types, and Operators
 * Control Flow (if-else, switch-case)
 * Loops (for, while, do-while)
-* Functions and Arrays
+* Functions and Arrays# 🚀 CPP-Programming-Practice
+
+Welcome to my C++ learning journey! This repository is a comprehensive collection of my practice codes, organized from basic syntax to advanced Object-Oriented Programming.
+
+---
+
+## 📂 Detailed Folder Structure
+
+### 🟦 1. Basic C++
+This section covers the core fundamentals of C++:
+* **1. Basic:** Initial setup and hello world programs.
+* **2. Conditional:** Logic building with `if-else` and `switch-case`.
+* **3. Loops:** Iteration practice using `for`, `while`, and `do-while`.
+* **4. Pattern Printing:** Logic development through various star and number patterns.
+* **5. Function:** Modularizing code using user-defined functions.
+* **6. Pointers:** Understanding memory addresses and pointer arithmetic.
+* **7. Recursion:** Solving problems by calling functions within themselves.
+* **8. Array:** Working with 1D arrays and data collections.
+* **9. 2D Array:** Handling matrices and multi-dimensional data.
+* **10. String:** Manipulating text and character sequences.
+
+### 🟨 2. Object Oriented Programming (OOP)
+Advanced topics focusing on the four pillars of OOP:
+* Classes & Objects
+* Inheritance
+* Polymorphism
+* Encapsulation & Abstraction
+
+---
+
+## 💻 Tech Stack
+* **Language:** C++
+* **Compiler:** GCC/G++
+* **Environment:** VS Code / CodeBlocks
+
+---
+
+## 👤 About Me
+**Shakil Ahmed** * **University:** Pirojpur Science and Technology University (PrSTU)  
+* **Department:** Computer Science and Engineering (CSE)  
+* **Batch:** Algorion-2  
+* **GitHub:** [@shakil1815](https://github.com/shakil1815)  
+
+---
+
+⭐ **Give this repo a star if you find it helpful!**
 * Pointers and Memory Management
 
 ### 2. [Object Oriented Programming (OOP)](./2.%20Object%20Oriented%20Programming%20(OOP)/)
