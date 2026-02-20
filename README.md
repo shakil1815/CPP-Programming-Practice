@@ -34,7 +34,18 @@ This section covers the core fundamentals of C++:
 * **9. 2D Array:** Handling matrices and multi-dimensional data.
 * **10. String:** Manipulating text and character sequences.
 ---
+⭐ **Give this repo a star if you find it helpful!**
+* Pointers and Memory Management
 
+### 2. [Object Oriented Programming (OOP)](./2.%20Object%20Oriented%20Programming%20(OOP)/)
+Focuses on advanced programming paradigms:
+* Classes and Objects
+* Encapsulation & Abstraction
+* Inheritance (Single, Multiple, Hierarchical)
+* Polymorphism (Compile-time and Runtime)
+* Constructors and Destructors
+
+---
 ## 💻 Tech Stack
 * **Language:** C++
 * **Compiler:** GCC/G++
@@ -47,19 +58,6 @@ This section covers the core fundamentals of C++:
 * **Department:** Computer Science and Engineering (CSE)  
 * **Batch:** Algorion-2  
 * **GitHub:** [@shakil1815](https://github.com/shakil1815)  
-
----
-
-⭐ **Give this repo a star if you find it helpful!**
-* Pointers and Memory Management
-
-### 2. [Object Oriented Programming (OOP)](./2.%20Object%20Oriented%20Programming%20(OOP)/)
-Focuses on advanced programming paradigms:
-* Classes and Objects
-* Encapsulation & Abstraction
-* Inheritance (Single, Multiple, Hierarchical)
-* Polymorphism (Compile-time and Runtime)
-* Constructors and Destructors
 
 ---
 
