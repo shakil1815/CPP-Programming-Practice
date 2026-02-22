@@ -30,6 +30,15 @@ public:
         rno = r;
     }
 
+    // // 6. Custom Copy Constructor (From your image)
+    // // It takes a reference to another Student object (&orgObj)
+    // Student(Student &orgObj) {
+    //     cout << "i am custom copy constructor..." << endl;
+    //     this->name = orgObj.name;
+    //     this->rno = orgObj.rno;
+    //     this->gpa = orgObj.gpa;
+    // }
+
 };
 
 int main(){
@@ -63,3 +72,16 @@ int main(){
     cout<<s7.name<<" "<<s7.gpa<<" "<<s7.rno<<endl;
     cout<<s4.rno;
 }
+
+/*
+Constructor:
+Special method invoked automatically at time of object creation. Used for Initialisation.
+
+    Same name as class
+
+    Constructor doesn't have a return type
+
+    Only called once (automatically), at object creation
+
+    Memory allocation happens when constructor is called
+*/

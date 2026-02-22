@@ -58,3 +58,6 @@ int main()
     cout<<c1.matches()<<endl;
     cout<<c2.matches()<<endl;
 }
+/*
+ this is a special pointer in c++ that points to the current object.
+*/
