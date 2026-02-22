@@ -31,3 +31,15 @@ int main(){
     s1.setMarks(98.5);
     cout<<s1.getMarks()<<endl;
 }
+
+/*
+Access Modifiers:
+
+    private: data & methods accessible inside class
+
+    public: data & methods accessible to everyone
+
+    protected: data & methods accessible inside class
+     & to its derived class
+
+*/

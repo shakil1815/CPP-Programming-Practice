@@ -1,42 +1,27 @@
-#include <iostream>
+#include<iostream> 
 using namespace std;
-class student
-{
+class lamia{
 public:
-    string name;
-    int id;
-    student()
-    {
-    }
-    student(int id, string name, float m)
-    {
-        this->id = id;
-        this->name = name;
-        this->cgpa = m;
-    }
-    float getcgpa()
-    {
-        return cgpa;
-    }
-    void setcgpa(float m)
-    {
-        cgpa = m;
-    }
-
-private:
+    string nikename;
+    int rollno;
     float cgpa;
-
-protected:
-    int gfnm;
+    
+    lamia(){   }
+    lamia(string nikename,int rollno,float cgpa){
+        this->nikename=nikename;
+        this->rollno=rollno;
+        this->cgpa=cgpa; 
+    }
+    // void print(){
+    //     cout<<"nikename: "<<nikename<<" "<<"rollno: "<<rollno<<" "<<"cgpa: "<<cgpa<<endl;
+    // }
 };
-int main()
-{
-    student s;
-    s.id = 9;
-        s.name = "shakil";
-        s.setcgpa(3.25);
-    cout << s.getcgpa()<<endl;
-
-    cout << s.id << endl;
-    cout << s.name << endl;
+void print(lamia s){
+    cout<<"nikename: "<<s.nikename<<" "<<"rollno: "<<s.rollno<<" "<<"cgpa: "<<s.cgpa<<endl;
+}
+int main(){
+    lamia s1("sabinaa",2,3.25);
+    print(s1);
+    //  lamia s2("sanjida",1,4.00) ;
+    //  s2.print();
 }
