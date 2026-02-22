@@ -33,6 +33,9 @@ int main(){
 }
 
 /*
+
+Encapsulation is wrapping up of data & member functions in a single unit called class.
+
 Access Modifiers:
 
     private: data & methods accessible inside class
