@@ -10,4 +10,4 @@ int main() {
     }
     else cout<<"not a three digit number";
 }
-//c++ ey && ou use kora jay abr sudu and ou use kora jay 
+//c++ ey && ou use kora jay abr sudu "and" ou use kora jay 

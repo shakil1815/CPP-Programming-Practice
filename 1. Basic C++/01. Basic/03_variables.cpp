@@ -8,12 +8,12 @@ int main(){
 /*
 Variable Naming rules
 
-1) Variables can start from an alphabet or underscore _ or $.
+1) Variables can start from an alphabet or underscore( _ )or dollar sign ( $ ).
 
-2) Special characters except _ and $ are not allowed.
+2) Special characters are not allowed except _ and $.
 
 3) Some particular keywords are not allowed.
 
-4) Commas or blanks are not allowed.
+4) Comma or blank are not allowed.
 
 */

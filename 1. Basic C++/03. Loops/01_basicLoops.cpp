@@ -20,7 +20,7 @@ while(i<=n){
 
 
 /*
-WHILE LOOP:
+Do-WHILE LOOP:
 int i=1;
 do{
         cout<<"Hello World!!"<<endl;
