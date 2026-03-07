@@ -13,7 +13,7 @@ int main(){
 /*
 arithmetic progress
 N th term formula:
- a of n = a+(n-1)+d
+ a of n = a+(n-1)d
  a=1st digit
  n=term
  d=difference between two number 

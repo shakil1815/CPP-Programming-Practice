@@ -15,7 +15,8 @@ int main(){
 }
 
 /*
-Hints: 10  diye vag korle ekta ekta digit komte thake 
+Hints: 
+10  diye vag korle ekta ekta digit komte thake 
 and 
 10 diye % mudulo korle last digit pawa jay
 
