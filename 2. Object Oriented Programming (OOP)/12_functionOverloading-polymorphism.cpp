@@ -27,6 +27,7 @@ int main(){
     overloading mane same name same function bar bar
     use kora mane sudu data type ba parameter change kore
     use kora ba order alada kora ke bujhay
+    return type same hote hobe 
 */
 
 /*

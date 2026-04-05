@@ -1,22 +1,21 @@
 #include<iostream>
 using namespace std;
-class level1{
+class overloading
+{
 public:
-   int roll;
-   int id;
-   string name;
-};
- class level{
-public:
-int kocu;
- };
-class level2:public level1,level {
-public:
-    string dept;
+  void sum(int a,int b){
+   cout<<a+b<<endl;
+  } 
+  void sum(int a,int b,int c){
+   cout<<a+b+c<<endl;
+  } 
+   void sum(int a,int b,int c,int d){
+   cout<<a+b+c+d<<endl;
+  } 
 };
 int main(){
-   level1 l1;
-   level2 l2;
-   l2.id=9;
-   cout<<l2.id;
-}  
+   overloading o;
+   o.sum(58,6);
+   o.sum(5,6,7);
+   o.sum(4,6,8,7);
+}
