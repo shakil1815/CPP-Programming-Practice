@@ -32,6 +32,6 @@ int main(){
     // cout<<c1.avg<<endl;
     
     // (*p1).avg = 77.5; // c1.avg = 77.5
-    p1->avg = 77.5; // c1.avg = 77.5
+    // p1->avg = 77.5; // c1.avg = 77.5
     cout<<c1.avg<<endl;
 }

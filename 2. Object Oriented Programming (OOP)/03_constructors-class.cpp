@@ -75,7 +75,8 @@ int main(){
 
 /*
 Constructor:
-Special method invoked automatically at time of object creation. Used for Initialisation.
+Special method invoked automatically at time of object creation. Used for 
+Initialisation.
 
     Same name as class
 
