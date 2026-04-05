@@ -11,7 +11,7 @@ public:
         marks = m;
     }
 
-     //getter ar use kore private ke print kora jay
+     //getter ar use kore private ke print kora a jay
     float getMarks(){ // getter
         return marks;
     }
