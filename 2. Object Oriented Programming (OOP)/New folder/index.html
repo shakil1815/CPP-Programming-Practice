@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shakil Ahmed | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body data-theme="dark">
+    <nav class="navbar">
+        <div class="container nav-shell">
+            <div class="logo">Shakil Ahmed</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link" data-i18n="nav.home">Home</a></li>
+                <li><a href="#about" class="nav-link" data-i18n="nav.about">About</a></li>
+                <li><a href="#skills" class="nav-link" data-i18n="nav.skills">Skills</a></li>
+                <li><a href="#education" class="nav-link" data-i18n="nav.education">Education</a></li>
+                <li><a href="#projects" class="nav-link" data-i18n="nav.projects">Projects</a></li>
+                <li><a href="#contact" class="nav-link" data-i18n="nav.contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <label class="sr-only" for="languageSelect">Language</label>
+                <select id="languageSelect" class="language-select" aria-label="Choose language">
+                    <option value="en">English</option>
+                    <option value="de">Deutsch</option>
+                    <option value="bn">বাংলা</option>
+                </select>
+                <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                    <span data-i18n="theme.dark">Dark</span>
+                </button>
+            </div>
+            <button class="hamburger" aria-label="Toggle menu" type="button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section id="home" class="hero reveal">
+        <div class="hero-content">
+            <p class="hero-kicker" data-i18n="hero.kicker">CSE Student Portfolio</p>
+            <h1 class="hero-title" data-i18n="hero.title">Hi, I'm <span class="highlight">Shakil Ahmed</span></h1>
+            <p class="hero-subtitle" data-i18n="hero.subtitle">Undergraduate CSE Student | Aspiring Software Engineer | Competitive Programmer</p>
+            <p class="hero-description" data-i18n="hero.description">Mastering CSE fundamentals to pursue a Master's in Germany and join global tech companies.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary" data-i18n="hero.btnContact">Get In Touch</a>
+                <a href="#projects" class="btn btn-secondary" data-i18n="hero.btnProjects">View Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about reveal">
+        <div class="container">
+            <h2 class="section-title" data-i18n="about.title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="profile-placeholder">
+                        <img src="https://raw.githubusercontent.com/shakil1815/for-important/258fcf36d73f1d0edcc9b66848e1dc73fdfd363f/WhatsApp%20Image%202026-04-14%20at%206.27.37%20PM.jpeg" alt="Shakil Ahmed" class="profile-image">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p data-i18n="about.p1">I'm currently pursuing my B.Sc. in Computer Science and Engineering at Pirojpur Science and Technology University (PrSTU). Originally from Barguna, my journey began at Ayla Patakata Sonarbangla High School and continued through Alekanda Govt. College, Barishal.</p>
+                    <p data-i18n="about.p2">My passion lies in competitive programming and core CS fundamentals. I solve problems on Codeforces, VJudge, and HackerRank while building stronger logic and analytical skills.</p>
+                    <p data-i18n="about.p3">My goal is to pursue a Master's degree in Germany and grow into a world-class software engineer. I actively use modern tools, GitHub, and AI-assisted learning to move faster.</p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span data-i18n="about.info1">BSc in CSE, PrSTU</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span data-i18n="about.info2">Barguna, Bangladesh</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-calendar"></i>
+                            <span data-i18n="about.info3">Expected 2028</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills reveal">
+        <div class="container">
+            <h2 class="section-title" data-i18n="skills.title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3 data-i18n="skills.card1.title">Programming Languages</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">OOP</span>
+                        <span class="skill-tag" data-i18n="skills.card1.tag4">Logic Building</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-brain"></i>
+                    <h3 data-i18n="skills.card2.title">Problem Solving</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Codeforces</span>
+                        <span class="skill-tag">VJudge</span>
+                        <span class="skill-tag">HackerRank</span>
+                        <span class="skill-tag">CP</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-palette"></i>
+                    <h3 data-i18n="skills.card3.title">Design and Branding</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag" data-i18n="skills.card3.tag1">Logo Design</span>
+                        <span class="skill-tag">UI/UX</span>
+                        <span class="skill-tag" data-i18n="skills.card3.tag3">Graphics</span>
+                        <span class="skill-tag" data-i18n="skills.card3.tag4">Branding</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-tools"></i>
+                    <h3 data-i18n="skills.card4.title">Tools and Technologies</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">Gemini AI</span>
+                        <span class="skill-tag">Copilot</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education reveal">
+        <div class="container">
+            <h2 class="section-title" data-i18n="education.title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="education.bsc.title">B.Sc. in Computer Science and Engineering</h3>
+                        <p class="timeline-date" data-i18n="education.bsc.date">2023 - Expected 2028</p>
+                        <p><strong data-i18n="education.bsc.uni">Pirojpur Science and Technology University (PrSTU)</strong></p>
+                        <p><strong data-i18n="education.bsc.cgpa">1st Semester CGPA: 3.54</strong></p>
+                        <p data-i18n="education.bsc.desc">Focused on competitive programming, data structures, algorithms, OOP with C++, and software engineering fundamentals.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="education.hsc.title">Higher Secondary Certificate (HSC)</h3>
+                        <p class="timeline-date" data-i18n="education.hsc.date">Passed 2023</p>
+                        <p><strong data-i18n="education.hsc.school">Alekanda Govt. College, Barishal</strong></p>
+                        <p><strong data-i18n="education.hsc.gpa">GPA: 4.58</strong></p>
+                        <p data-i18n="education.hsc.desc">Completed with a science background, building strong fundamentals in mathematics and physics.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="education.ssc.title">Secondary School Certificate (SSC)</h3>
+                        <p class="timeline-date" data-i18n="education.ssc.date">Completed</p>
+                        <p><strong data-i18n="education.ssc.school">Ayla Patakata Sonarbangla High School, Barguna</strong></p>
+                        <p><strong data-i18n="education.ssc.gpa">GPA: 5.00</strong></p>
+                        <p data-i18n="education.ssc.desc">Started my academic journey with a passion for science and technology.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects reveal">
+        <div class="container">
+            <h2 class="section-title" data-i18n="projects.title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image"><i class="fas fa-trophy"></i></div>
+                    <div class="project-content">
+                        <h3 data-i18n="projects.card1.title">National Undergraduate Math Olympiad</h3>
+                        <p data-i18n="projects.card1.desc">Participated in the National Undergraduate Mathematics Olympiad and practiced advanced mathematical problem-solving.</p>
+                        <div class="project-tags">
+                            <span data-i18n="projects.card1.tag1">Competition</span>
+                            <span data-i18n="projects.card1.tag2">Mathematics</span>
+                            <span data-i18n="projects.card1.tag3">Problem Solving</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image"><i class="fas fa-code"></i></div>
+                    <div class="project-content">
+                        <h3 data-i18n="projects.card2.title">C++ OOP Practice Repository</h3>
+                        <p data-i18n="projects.card2.desc">A repository focused on C++ OOP concepts including inheritance, polymorphism, encapsulation, and dynamic memory management.</p>
+                        <div class="project-tags">
+                            <span>C++</span>
+                            <span>OOP</span>
+                            <span>GitHub</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image"><i class="fas fa-palette"></i></div>
+                    <div class="project-content">
+                        <h3 data-i18n="projects.card3.title">Department Logo and Branding</h3>
+                        <p data-i18n="projects.card3.desc">Designed logos, banners, and branding materials for academic and personal projects by combining creativity and technical discipline.</p>
+                        <div class="project-tags">
+                            <span data-i18n="projects.card3.tag1">Design</span>
+                            <span data-i18n="projects.card3.tag2">Branding</span>
+                            <span>UI/UX</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image"><i class="fab fa-github"></i></div>
+                    <div class="project-content">
+                        <h3 data-i18n="projects.card4.title">GitHub Student Projects</h3>
+                        <p data-i18n="projects.card4.desc">Using the GitHub Student Developer Pack to build professional projects and collaborate with the global developer community.</p>
+                        <div class="project-tags">
+                            <span>GitHub</span>
+                            <span data-i18n="projects.card4.tag2">Open Source</span>
+                            <span data-i18n="projects.card4.tag3">Collaboration</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact reveal">
+        <div class="container">
+            <h2 class="section-title" data-i18n="contact.title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 data-i18n="contact.subtitle">Let's Connect</h3>
+                    <p data-i18n="contact.desc">I am always open to discussing competitive programming, collaboration, and technology opportunities around the world.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>shakil.ahmed.mobin@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-university"></i>
+                            <span data-i18n="contact.university">Pirojpur Science and Technology University</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span data-i18n="contact.location">Barguna, Bangladesh</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/shakil1815" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/shakil-ahmed" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://codeforces.com/profile/Voided_Shakil" target="_blank" rel="noopener noreferrer" class="social-link" title="Codeforces"><i class="fas fa-code"></i></a>
+                        <a href="https://www.facebook.com/shakil1815" target="_blank" rel="noopener noreferrer" class="social-link" title="Facebook"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" data-i18n-placeholder="contact.form.name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" data-i18n-placeholder="contact.form.email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" data-i18n-placeholder="contact.form.message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" data-i18n="contact.form.button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p data-i18n="footer.copy">Copyright 2026 Shakil Ahmed. All rights reserved.</p>
+            <p data-i18n="footer.note">Designed by a PrSTU CSE student with global ambition.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
