@@ -1,13 +1,12 @@
-#include<bits/stdc++.h>
+#include <iostream>
 using namespace std;
-int main(){
-    int a=65;
-    int b= 90;
-    for(int i=a;i<=b;i++){
-           cout<<(char)i<<" ";
+int main()
+{
+    int n;
+    cin>>n;
+    int f=1;
+    for(int i=1; i<=n; i++){
+        f *= i;
+        cout<<i<<"!"<<" ="<<f<<endl;
     }
-
-
-
-    
 }

@@ -5,7 +5,6 @@ int main(){
     cout<<"Enter number:";
     cin>>n;
     int count=0;
-    int i=0;
     while(n !=0){
        n=n/10;
        count++;  

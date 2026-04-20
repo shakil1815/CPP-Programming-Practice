@@ -4,11 +4,16 @@ int main(){
    int n;
    cout<<"Enter n:";
    cin>>n;
-   for(int i=1; i<=2*n-1; i+=2){
+   for(int i=4; i<=4*n+1; i+=3){
     cout<<i<<" ";
    }
 
 }
+
+/*
+  condition ey last number dite hoy 
+  ap law use kore last digit ber kora hoy 
+  */
 
 /*
 arithmetic progress

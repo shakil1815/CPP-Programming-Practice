@@ -12,4 +12,9 @@ int main(){
        product*=ld;
     }
     cout<<product;
+    // cout<<endl;
+    // for(int i=n; i>0; i /=10){
+    //     product= product*(i%10);
+    // }
+    // cout<<product;
 }
