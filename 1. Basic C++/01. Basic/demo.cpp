@@ -1,12 +1,14 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
-int main()
-{
-    int n;
-    cin>>n;
-    int f=1;
-    for(int i=1; i<=n; i++){
-        f *= i;
-        cout<<i<<"!"<<" ="<<f<<endl;
-    }
+
+void test(){
+    static int x = 0;
+    x++;
+    cout << x << endl;
+}
+
+int main(){
+    test();
+    test();
+    test();
 }
