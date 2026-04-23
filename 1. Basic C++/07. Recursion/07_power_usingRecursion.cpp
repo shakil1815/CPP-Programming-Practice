@@ -1,17 +1,14 @@
-#include <bits/stdc++.h>
+#include<iostream>
 using namespace std;
-int power(int a, int b)
-{
-    if (b==0) return 1;
-    return a * power(a,b - 1); // samne else na dile ou hobe
+int fib(int n){
+    if (n == 0) return 0;
+    if (n == 1) return 1;;
+    return fib(n-1)+fib(n-2);
 }
-int main()
-{
-    int b;
-    cout << "Enter base:";
-    cin >> b;
-    int p;
-    cout << "Enter power:";
-    cin >> p;
-    cout <<b<<" Power "<<p<<" :"<< power(b,p);
+int main(){
+   int n;
+   cin>>n;
+   for(int i=0;i<=n;i++){
+    cout<<fib(i)<<" ";
+   }
 }
