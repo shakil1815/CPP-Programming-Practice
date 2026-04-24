@@ -6,8 +6,8 @@ int main()
     // Declares an empty vector
     vector<int> v;
 
-    // Declares vector with given size
-    // and fills it with a value
+    /* Declares vector with given size
+    and fills it with a value  */
     cout << "vector 2: ";
     //(size, each element value)
     vector<int> v2(3, 5);
@@ -84,8 +84,46 @@ int main()
     cout<<"access index 2 using v.at():"<<v.at(3);
     cout << endl;
 
-    //v.front(), v.end()
+    //v.front(), v.back()
     cout<<"v.front(): "<<v.front()<<endl;
     cout<<"v.back(): "<<v.back()<<endl;
-    cout << endl;
+
+
+    /* v.begin(),v.end() ekta iteretor eita print 
+    korte de-refrence operator use kora hoy */
+    cout<<"v.begin() : "<<*(v.begin())<<endl;
+   /* end ekdom last element ar porar box point 
+   ekore tai garbage value print kore */
+    cout<<"v.end() : "<<*(v.end()-1)<<endl;
+
+    //if true result is 1 else result is 0
+    cout<<"is empty= "<<v.empty()<<endl;
+
+    //insert(position,value)
+    v.insert(v.begin()+2,100);
+    cout<<"insert() : ";
+    for(int n:v){
+        cout<<n<<" ";
+    }
+    
+    cout<<endl;
+    vector<int> vec = {1, 2, 3, 4, 5};
+    
+    // Declaring a forward iterator
+    vector<int>::iterator it1; /* ei line na likhe for loop ar 
+    samne auto dile e hoy eta advance cpp ar subidha */
+    cout<<"interator: ";
+    // Looping from begin to end
+    for(it1 = vec.begin(); it1 != vec.end(); it1++) {
+        cout << *(it1) << " ";
+    }
+
+    cout<<endl<<"reverse interator: ";
+    vector<int>::reverse_iterator it2;
+    for(it2 = vec.rbegin(); it2 != vec.rend(); it2++){
+          cout<<*(it2)<<" ";
+    }
+
+
+    cout<<endl<<endl<<endl;
 }
