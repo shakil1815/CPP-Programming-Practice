@@ -4,7 +4,7 @@
 দিক থেকেই ডেটা যোগ বা ডিলিট করা যায়। তবে ইনডেক্স দিয়ে
 সরাসরি মাঝের কোনো ডেটা অ্যাক্সেস করা যায় না।  
 size() & capacity(), push_back() & pop_back(), emplace_back(), 
-at() & [], front() & back(),erase(start, end), insert(position,value), 
+front() & back(),erase(start, end), insert(position,value), 
 clear(), empty(), l.begin(), l.end() ->  egulo ar kaj same as vector */
 
 #include<iostream>
@@ -29,7 +29,7 @@ int main(){
 
   cout<<endl;
 
-    list<int> l1 = {1, 3, 4, 2, 5};
+  list<int> l1 = {1, 3, 4, 2, 5};
 
     l1.front() = 11;
     auto it = l1.begin();
@@ -41,13 +41,13 @@ int main(){
         cout << i << " ";
     }
 
-    // Finding 4
+    // Finding 4lk
     cout<<endl;
     auto it1 = find(l1.begin(), l1.end(), 3);
-    if (it1 != l1.end())
-        cout <<"element is found: "<< *it1;
-    else
-        cout << "Element Not Found!";
+      if (it1 != l1.end()){
+           cout <<"element is found: "<< *it1;
+      }
+      else cout << "Element Not Found!";
 }
 
 /*
