@@ -23,9 +23,16 @@ int main(){
     vec.push_back({6,8});
     vec.emplace_back(3,7);//ei jaygay emplace use korar jonno 
     //pair kore pass korte hoy nai emplace sorasori object  create kore
-    cout<<"-----------vector Pair 4--------"<<endl;
+    cout<<"---------vector Pair 4--------"<<endl;
     for(pair<int,int>p4:vec){
         cout<<p4.first <<" "<<p4.second<<endl;
     }
 
+    cout<<"------vector pair pair 5------"<<endl;
+    vector<pair<int,pair<int,int>>>vecu={{5,{3,8}},{9,{4,9}},{10,{5,1}}};
+    for(auto a:vecu){
+        cout<<a.first<<" "<<a.second.first<<" "<<a.second.second<<endl;
+    }
+
+    cout<<endl<<endl<<endl;
 }
