@@ -1,10 +1,14 @@
 #include<iostream>
-#include<list>
-#include<algorithm>
-#include<vector>
 using namespace std;
+void sum(int n);
 int main(){
-    
+    int n;
+    cin>>n;
+    sum(n);
+}
+void sum(int n){
+    if(n%2==0) cout<<"even";
+    else cout<<"odd";
 }
 
 
