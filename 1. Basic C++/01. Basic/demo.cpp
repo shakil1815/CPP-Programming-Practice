@@ -1,14 +1,25 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
-void sum(int n);
 int main(){
-    int n;
-    cin>>n;
-    sum(n);
+    int q;
+    cin>>q;
+    while(q--){
+        int n;      
+        cin>>n;     
+        
+        string s;
+        cin>>s;
+        string t;
+        cin>>t;
+        
+        sort(s.begin(),s.end());
+        sort(t.begin(),t.end());
+        
+        if(s==t){
+            cout<<"YES\n";
+        }
+        else cout<<"NO\n";
+    }
+    return 0;
 }
-void sum(int n){
-    if(n%2==0) cout<<"even";
-    else cout<<"odd";
-}
-
 
