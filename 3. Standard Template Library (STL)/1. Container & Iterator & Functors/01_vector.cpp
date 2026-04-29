@@ -104,7 +104,7 @@ int main()
     korte de-refrence operator use kora hoy */
     cout<<"v.begin() : "<<*(v.begin())<<endl;
    /* end ekdom last element ar porar box point 
-   ekore tai garbage value print kore */
+   e kore tai garbage value print kore */
     cout<<"v.end() : "<<*(v.end()-1)<<endl;
 
     //if true result is 1 else result is 0

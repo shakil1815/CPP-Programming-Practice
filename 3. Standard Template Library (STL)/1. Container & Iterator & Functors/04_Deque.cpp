@@ -5,7 +5,7 @@ Deque (ডিকিউ): * এর পূর্ণরূপ হলো Double-ende
 দিয়ে অ্যাক্সেস করা সম্ভব।
 size() & capacity(), push_back() & pop_back(), emplace_back(), 
 at() & [], front() & back(),erase(start, end), insert(position,value), 
-clear(), empty(), l.begin(), l.end() ->  egulo ar kaj same as vector
+clear(), empty(), begin(), end() ->  egulo ar kaj same as vector
 */
 #include<iostream>
 #include<deque>

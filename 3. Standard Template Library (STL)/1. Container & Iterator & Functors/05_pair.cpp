@@ -29,7 +29,7 @@ int main(){
     }
 
     cout<<"------vector pair pair 5------"<<endl;
-    vector<pair<int,pair<int,int>>>vecu={{5,{3,8}},{9,{4,9}},{10,{5,1}}};
+    vector<pair<int,pair<int,int>>>vecu={{5,{3,8}},{9,{4,9}},{1,{5,1}}};
     for(auto a:vecu){
         cout<<a.first<<" "<<a.second.first<<" "<<a.second.second<<endl;
     }
