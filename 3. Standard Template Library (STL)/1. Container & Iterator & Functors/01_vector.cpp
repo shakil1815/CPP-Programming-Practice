@@ -1,8 +1,13 @@
-/*Vector (ভেক্টর): * এটি ডাইনামিক অ্যারে (Dynamic Array)
+/*
+Vector (ভেক্টর): * এটি ডাইনামিক অ্যারে (Dynamic Array)
 এর মতো কাজ করে।সাধারণ অ্যারের সাইজ ফিক্সড থাকলেও , 
 ভেক্টরের সাইজ প্রয়োজন অনুযায়ী নিজে নিজেই বাড়ে বা কমে।
 এর শেষে খুব সহজেই নতুন ডেটা যুক্ত বা রিমুভ করা যায় এবং
-ইনডেক্স (Index) ব্যবহার করে যেকোনো ডেটা পড়া যায়।  */
+ইনডেক্স (Index) ব্যবহার করে যেকোনো ডেটা পড়া যায়।  
+ize() & capacity(), push_back() & pop_back(), emplace_back(), 
+front() & back(),erase(start, end), insert(position,value), 
+clear(), empty(), v.begin(), v.end() ->  egulo use kora hoy
+*/
 
 #include <iostream>
 #include <vector>
