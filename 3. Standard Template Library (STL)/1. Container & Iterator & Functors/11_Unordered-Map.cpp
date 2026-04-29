@@ -8,7 +8,7 @@ int main(){
     om.emplace("laptop",30);
     om.emplace("laptop",40);  
     /* unordered map ey same key repeat hoy na
-    map and unordered ,map same but om ey time and space complexsity
+    map and unordered ,map ar same but om ey time and space complexsity
     kom hoy tai om besi use kora hoy and redomly print hoy mane sorted 
     vabe print hoy na 
     */
