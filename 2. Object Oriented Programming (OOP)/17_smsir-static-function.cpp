@@ -15,8 +15,8 @@ int test1::count=0;
 int main (){
     test1 t1,t2;
     t1.set();
-    t1.showcount();
+    test1::showcount();
 
     t2.set();
-    t2.showcount();
+    test1::showcount();
 }
