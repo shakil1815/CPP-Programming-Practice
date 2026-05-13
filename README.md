@@ -36,7 +36,6 @@ This section covers the absolute fundamentals of programming and logic building.
 - [📂 08. Array](./1.%20Basic%20C++/08.%20Aarry) - 1D arrays, Searching, Basic sorting
 - [📂 09. 2D Array](./1.%20Basic%20C++/09.%202D%20Aarry) - Matrix operations, Grid problems
 - [📂 10. String](./1.%20Basic%20C++/10.%20String) - String manipulation, Character arrays
-- [📂 Practice CP](./1.%20Basic%20C++/pactice%20cp) - Beginner level competitive programming problems
 
 ### [📁 2. Object Oriented Programming (OOP)](./2.%20Object%20Oriented%20Programming%20(OOP))
 Deep dive into the core concepts of OOP in C++ to write modular and reusable code.
