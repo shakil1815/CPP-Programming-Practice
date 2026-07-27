@@ -6,6 +6,8 @@ public:
     string name;
     int roll;
     float gpa;
+private:
+    int marks;
 };
 int main(){
     student s1;
